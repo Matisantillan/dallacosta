@@ -16,6 +16,7 @@
     padding-left: 5px;
     padding-top: 20px;
     margin: 0px;
+    background-image: linear-gradient(to right, #000000, #191818, #2b2a29, #3e3c3b, #51504e);
 }
 body{
     background-color: #D3D3D3;
@@ -102,6 +103,7 @@ div{
     background-color: orange;
     border: 2px solid black;
     text-align: center;
+    background-image: linear-gradient(to right bottom, #e00b0b, #e44001, #e75d00, #e97600, #eb8c12);
 }
 .bordes{
     border: solid  1,5px black;
@@ -118,4 +120,23 @@ div{
     font-size:  20px;
     color: rgb(20, 32, 196);
     text-decoration: none;
+}
+.transicion {
+    transition: width 2.5s, height 2.5s;
+}
+.transicion:hover{
+    width: 1200px;
+    height: 700px;
+}
+.textoanimado{
+    animation-name: texto;
+    animation-duration: 3.5s;
+}
+@keyframes texto {
+    from{
+        transform: translateX(1200px);
+    }
+    to{
+        transform: translateX(0px);
+    }
 }

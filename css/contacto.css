@@ -23,76 +23,6 @@ body{
     margin-top: 0px;
 
 }
-article{
-    background-color: #808080;
-    padding: 20px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    grid-area: menu;
-
-}
-article span{
-    background-color: #FAEBD7;
-    width: 90px;
-    height: 25px;
-    margin: 5px;
-    padding: 7px 10px;
-    border: inset;
-    text-align: center;
-}
-.pieDePagina{
-    background-color: #808080;
-    font-family: "Rokkitt";
-    src: url(static/Rokkitt-Bold.ttf);
-    font-size:  20px;;
-    color: #d3d3d3;
-    text-align: center;
-    line-height: 25px;
-    margin-left: 10px;
-
-}
-p{
-    font-family: "Rokkitt";
-    src: url(static/Rokkitt-SemiBold.ttf);
-    font-size: 20px;
-    line-height: 30px;
-    text-align: justify;
-    padding: 15px;
-}
-.sinsubrayar{
-    text-decoration: none;
-    color: #180297;
-}
-footer p{
-    text-align: center;
-    line-height: 0;
-}
-nav{
-    margin-left: 20px;
-    margin-right: 50px;
-    grid-area: cabeza;
-}
-.display{
-    display: inline;
-}
-.margin{
-    margin: 15px;
-}
-.margenIzq{
-    margin-left: 15px;
-}
-.fondo-imagen{
-    background-image: url(imagenes/dalla2.jpeg);
-    background-position: center center;
-    width: 1200px;
-    height: 450px;
-    position: absolute;
-    left: 650px;
-    top: 480px;
-}
-
 .grid-repetitivo{
     display: grid;
     grid-template-columns: 2fr repeat(5, 1fr);
@@ -100,34 +30,15 @@ nav{
 }
 div{
     color: rgb(0, 0, 0);
-    background-color: orange;
+    background-color: rgb(180, 177, 172);
     border: 2px solid black;
     text-align: center;
-    background-image: linear-gradient(to right bottom, #e00b0b, #e44001, #e75d00, #e97600, #eb8c12);
+    background-image: linear-gradient(to right bottom, #979797, #b3b0ae, #979694, #6b6a6a, #525150);
 }
 .bordes{
     border: solid  1,5px black;
 }
-.fotoflex{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-}
-.links{
-    font-family: "Rokkitt";
-    src: url(static/Rokkitt-Bold.ttf);
-    font-size:  20px;
-    color: rgb(20, 32, 196);
-    text-decoration: none;
-}
-.transicion {
-    transition: width 2.5s, height 2.5s;
-}
-.transicion:hover{
-    width: 1200px;
-    height: 700px;
-}
+
 .textoanimado{
     animation-name: texto;
     animation-duration: 3.5s;

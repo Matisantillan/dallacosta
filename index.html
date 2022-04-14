@@ -5,43 +5,86 @@
         <link rel="shortcut icon" href="favicons.ico" type="image/x-icon">
         <link rel="icon" href="favicons.ico" type="image/x-icon">
         <link rel="stylesheet" href="../proyecto2/css/estilos.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
     </head>
-    <body id="grid-areas">
-        <nav class="border" class="header">
-            <img src="imagenes/logodc.png" width="70" alt="70">
-            <span class="titulo">DEPORTIVO DALLA COSTA</span>
-        </nav>
-        <article>
-            <span><a href="paginas/historia.html" class="menubarra" >Historia</a></span>
-            <span><a href="paginas/categorias.html" class="menubarra" >Categorias</a></span>
-            <span><a href="paginas/fixture.html" class="menubarra" >Fixture</a></span>
-            <span><a href="paginas/contacto.html" class="menubarra">Contacto</a></span>
-        </article>
-        <main>
-            <p> Institución deportiva creada oficialmente en el año 2002, en la ciudad de Córdoba, argentina. Sus raíces se remontan al año 1993, cuando un grupo de integrantes del equipo de fútbol de la por entonces Facultad de Filosofía y Humanidades de la Universidad Nacional de Córdoba, decidió convertirse en un grupo en sí y para sí. Varios de esos jugadores forman Dalla Costa, que inicio ese año su participación en la Liga Jujeña de Fútbol en Córdoba. Dalla Costa toma su nombre de Andrés Dalla Costa... jugador ingresado en 1997, versátil como pocos, carpintero, enfermero y psicólogo. Tras varios años compartidos fallece en un accidente en Italia, y en su homenaje se le da el nombre al equipo.
-            Actualmente se desempeña en varias categorias del Torneo Golden de la ciudad de Córdoba, y lo que empezo en el 2002 con 12 personas hoy se transformó en 4 equipos con mas de 20 jugadores cada uno.</p>
-        </main>
-        <aside class="border">
-            <p>Predio deportivo donde se desarrolla el torneo:</p>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13604.340045621442!2d-64.1668175!3d-31.521825!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8950cfe6fe02462f!2sPredio%20Torneo%20Golden!5e0!3m2!1ses-419!2sar!4v1647295403601!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-            <p>Proximas fechas:</p>
-            <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FArgentina%2FBuenos_Aires&src=ZXMuYXIjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%230B8043" style="border:solid 1px #777" width="600" height="400" frameborder="0" scrolling="no"></iframe>
-        </aside>
+    <body class="bg-$gray-300">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="imagenes/logodc.png" width="90" alt="70">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="paginas/historia.html">Hsitoria</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="paginas/categorias.html">Categorias</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="paginas/fixture.html">Fixture</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="paginas/contacto.html">Contacto</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="paginas/historia.html">Historia</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
 
-       
-        <section class="border" class="fondo-imagen">     
-            
-            <img src="imagenes/dalla2.jpeg" width="900" height="550">
-            <div class="display">*Aqui podemos ver el fixture en tamaño reducido, goleadores, amarillas y suspensiones de cada jugador de Dalla Costa*</div>
-        </section>
-    
-        <footer class="border" class="pieDePagina">
-            <p>&copy Desarrollado por Matias Santillan</p>
-            <a href="https://www.instagram.com/deportivodallacosta/?hl=es-la" class="links">Instagram</a>
-            <a href="http://www.torneogolden.com.ar/#/home/noticias" class="links">Página del Torneo</a>
-            <a href="paginas/contacto.html" class="links">Contacto</a>
-        </footer>
+        <div class="container-fluid">
+            <div class="row align-items-start">
+              <div class="col-12 col-md-7 col-lg-7">
+                Institución deportiva creada oficialmente en el año 2002, en la ciudad de Córdoba, argentina. Sus raíces se remontan al año 1993, cuando un grupo de integrantes del equipo de fútbol de la por entonces Facultad de Filosofía y Humanidades de la Universidad Nacional de Córdoba, decidió convertirse en un grupo en sí y para sí. Varios de esos jugadores forman Dalla Costa, que inicio ese año su participación en la Liga Jujeña de Fútbol en Córdoba. Dalla Costa toma su nombre de Andrés Dalla Costa... jugador ingresado en 1997, versátil como pocos, carpintero, enfermero y psicólogo. Tras varios años compartidos fallece en un accidente en Italia, y en su homenaje se le da el nombre al equipo.
+            Actualmente se desempeña en varias categorias del Torneo Golden de la ciudad de Córdoba, y lo que empezo en el 2002 con 12 personas hoy se transformó en 4 equipos con mas de 20 jugadores cada uno.
+              </div>
+              <div class="col-12 col-md-5 col-lg-5">
+                Predio deportivo donde se desarrolla el torneo:
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13604.340045621442!2d-64.1668175!3d-31.521825!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8950cfe6fe02462f!2sPredio%20Torneo%20Golden!5e0!3m2!1ses-419!2sar!4v1647295403601!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+              </div>
+            </div>
+            <div class="row align-items-start">
+              <div class="col-12 col-md-7 col-lg-7">
+                <img src="imagenes/dalla2.jpeg" class="img-fluid" width="900" height="600">
+              </div>
+              <div class="col-12 col-md-5 col-lg-5">
+                Proximas fechas:<hr>
+                <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FArgentina%2FBuenos_Aires&src=ZXMuYXIjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%230B8043" style="border:solid 1px #777" width="600" height="400" frameborder="0" scrolling="no"></iframe>
+              </div>
+              </div>
+        </div>
+        <div class="b-example-divider"></div>
+        <div class="container-fluid bg-dark">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+              <div class="col-md-4 d-flex align-items-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                  <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+                </a>
+                <span class="text-muted">&copy; 2021 Company, Inc</span>
+              </div>
+          
+              <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+                <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/deportivodallacosta/?hl=es-la"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+                <li class="ms-3"><a class="text-muted" href="https://www.facebook.com/Deportivo-Dalla-Costa-103407334550300/"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+              </ul>
+            </footer>
+          </div>
 
     </body>
     

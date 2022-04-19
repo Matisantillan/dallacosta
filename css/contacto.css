@@ -1,44 +1,6 @@
-*{
-    font-family: "Rokkitt";
-    src: url(../proyecto2/static/Rokkitt-Bold.ttf);
-    font-size: 20px;
-    text-align: justify;
-}
-.titulo{
-    font-family: "Rokkitt";
-    src: url(static/Rokkitt-Bold.ttf);
-    font-size:  70px;;
-    color: #d3d3d3;
-    text-align: center;
-}
-.header{
-    background-color: black;
-    padding-left: 5px;
-    padding-top: 20px;
-    margin: 0px;
-    background-image: linear-gradient(to right, #000000, #191818, #2b2a29, #3e3c3b, #51504e);
-}
 body{
-    background-color: #D3D3D3;
-    margin-top: 0px;
-
+    background-color: rgb(170, 165, 165);
 }
-.grid-repetitivo{
-    display: grid;
-    grid-template-columns: 2fr repeat(5, 1fr);
-    grid-template-rows: repeat(5, 2fr);
-}
-div{
-    color: rgb(0, 0, 0);
-    background-color: rgb(180, 177, 172);
-    border: 2px solid black;
-    text-align: center;
-    background-image: linear-gradient(to right bottom, #979797, #b3b0ae, #979694, #6b6a6a, #525150);
-}
-.bordes{
-    border: solid  1,5px black;
-}
-
 .textoanimado{
     animation-name: texto;
     animation-duration: 3.5s;

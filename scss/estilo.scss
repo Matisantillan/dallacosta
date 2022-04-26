@@ -1,0 +1,16 @@
+
+
+div{
+    p{
+        font-family: "Rokkitt";
+        src: url(../static/Rokkitt-ExtraBold.ttf);
+        font-size: 25px;
+        text-align: center;
+
+    }
+}
+$grisbody: #B0B0AE;
+body{
+    background-color: $grisbody;
+}
+@import "texto"

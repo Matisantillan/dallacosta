@@ -9,11 +9,29 @@ body {
   background-color: #B0B0AE;
 }
 
-* {
-  font-family: "Rokkitt";
-  src: url(../static/Rokkitt-Bold.ttf);
-  font-size: 20px;
-  text-align: justify;
+.imagenes {
+  width: 600px;
+  height: 400px;
+}
+
+.fuente-h1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 30px;
+}
+
+.fuente-h2 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 30px;
+}
+
+.fuente-h3 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 30px;
+}
+
+.fuente-h4 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 30px;
 }
 
 /*# sourceMappingURL=estilos.css.map */

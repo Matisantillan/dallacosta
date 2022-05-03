@@ -1,0 +1,3 @@
+Agregue un mixin para las imagenes de las secciones Categorias e Historia en el cual unifico tamaños.
+Cree un each para los H, que son los titulos de cada pagina para que tengan la misma fuente y tamaño
+Agregue Keywords y descripcion a cada una de las paginas del proyecto
